@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Changelog",
-  "description": "Changelog eCampuz Product Documentation",
+  "theme": "almond",
+  "name": "Product Guide",
+  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
   "colors": {
     "primary": "#166E3F",
     "light": "#26BD6C",
@@ -53,13 +53,13 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://ecampuz.com"
+      "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://ecampuz.com",
-      "linkedin": "https://ecampuz.com"
+      "x": "https://x.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
     }
   }
 }
