@@ -22,6 +22,12 @@
     "directory": "card",
     "groups": [
       {
+      "group": "Beranda",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "group": "Riwayat Pembaruan",
         "icon": "calendar-sync",
         "expanded": true,
