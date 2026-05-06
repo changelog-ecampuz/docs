@@ -25,7 +25,8 @@
       "group": "Ringkasan",
         "pages": [
           "index"
-        ]
+        ],
+        "icon": "warehouse"
       },
       {
         "group": "Riwayat Pembaruan",
