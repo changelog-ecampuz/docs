@@ -22,7 +22,7 @@
     "directory": "card",
     "groups": [
       {
-      "group": "Beranda",
+      "group": "Summary",
         "pages": [
           "index"
         ]
