@@ -21,13 +21,7 @@
   "navigation": {
     "directory": "card",
     "pages": [
-      {
-        "group": "Ringkasan",
-        "icon": "warehouse",
-        "pages": [
-          "index"
-        ]
-      },
+      "index",
       {
         "group": "Riwayat Pembaruan",
         "icon": "calendar-sync",
@@ -39,8 +33,7 @@
           "platform/portal-dosen",
           "platform/portal-mahasiswa"
         ]
-      },
-      "ringkasan-pembaruan"
+      }
     ]
   },
   "logo": {
