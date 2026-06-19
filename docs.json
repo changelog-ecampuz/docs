@@ -30,7 +30,7 @@
           "platform/eakademik",
           "platform/eregistrasi",
           "platform/epembayaran",
-          "platform/portal-dosen",
+          "platform/mcampus-services",
           "platform/portal-mahasiswa"
         ]
       }
