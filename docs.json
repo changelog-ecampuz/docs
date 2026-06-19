@@ -30,8 +30,8 @@
           "platform/eakademik",
           "platform/eregistrasi",
           "platform/epembayaran",
-          "platform/mcampus-services",
-          "platform/portal-mahasiswa"
+          "platform/eportal-akademik",
+          "platform/mcampus-services"
         ]
       }
     ]
