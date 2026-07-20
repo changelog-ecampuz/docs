@@ -32,7 +32,8 @@
           "platform/e-admisi",
           "platform/epembayaran",
           "platform/eportal-akademik",
-          "platform/mcampus-services"
+          "platform/mcampus-services",
+          "platform/e-spmi"
         ]
       }
     ]
