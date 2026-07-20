@@ -29,6 +29,7 @@
         "pages": [
           "platform/eakademik",
           "platform/eregistrasi",
+          "platform/e-admisi",
           "platform/epembayaran",
           "platform/eportal-akademik",
           "platform/mcampus-services"
