@@ -1,22 +1,80 @@
 ---
 title: "eAkademik"
 sidebarTitle: "eAkademik"
-description: "Pembaruan sistem periode 1 – 31 Mei 2026"
+description: "Pembaruan sistem periode 1 – 31 Juni 2026"
 ---
 
 ### <Icon icon="newspaper" /> Fitur Baru
 
-**Pengajuan Penambahan Kuota Penyimpanan**\
-Administrator kampus kini dapat lebih mudah menghubungi tim Customer Experience terkait kebutuhan penambahan kapasitas penyimpanan melalui tombol bantuan yang tersedia pada sistem.
+**Submenu CPL per Mahasiswa pada Modul OBE**<br />Penambahan submenu terpusat untuk mengelola dan memantau CPL per mahasiswa di Back Office.
+
+**Filter Pencarian Interaktif CPL Mahasiswa**<br />Fasilitas penyaringan data berdasarkan program studi, angkatan, dan status mahasiswa.
+
+**Header Informasi Informasi Mahasiswa**<br />Tampilan ringkasan profil data mahasiswa pada halaman detail CPL.
+
+**Tabel Detail Nilai CPL & CPL Akhir**<br />Penyajian tabel rincian nilai CPL per mata kuliah beserta kalkulasi nilai CPL akhir.
+
+**Visualisasi Spider Web Chart CPL Mahasiswa**<br />Grafik jaring laba-laba (Spider Web) untuk menganalisis keseimbangan capaian CPL.
+
+**Deskripsi Penjelasan Indikator CPL**<br />Pencantuman deskripsi penjelasan lengkap pada bagian bawah tabel nilai CPL.
+
+**Penanganan Kondisi Khusus CPL & Badge 'Ulang'**<br />Otomatisasi penanganan mahasiswa tanpa nilai serta penandaan badge 'Ulang' pada mata kuliah yang diambil kembali.
+
+**Ekspor Rekapitulasi Data CPL ke Excel**<br />Fasilitas cetak dan ekspor seluruh rekapitulasi data CPL mahasiswa ke format file Excel.
+
+**Pencetakan Kolom NIM pada Cetak Ringkas Mahasiswa**<br />Menambahkan kolom NIM pada cetak daftar mahasiswa ringkas untuk kemudahan verifikasi.
+
+**Pengunggahan Lampiran SKPI Format PDF**<br />Dukungan pengunggahan berkas lampiran SKPI berformat .pdf (selain .rar/.zip).
+
+**Validasi Otomatis Riwayat Studi Pendaftaran Yudisium**<br />Pengecekan kelengkapan riwayat studi secara otomatis bagi mahasiswa yang mendaftar yudisium.
+
+**Validasi Riwayat Studi Mahasiswa Keluar & Drop Out (DO)**<br />Pengecekan otomatis riwayat studi saat memproses penetapan status mahasiswa keluar/DO.
+
+**Pengelolaan & Cetak Tampilan Status Menunggu UKom**<br />Menampilkan kolom status Uji Kompetensi (UKom) pada tabel, fitur ubah status UKom, dan cetak daftar mahasiswa berbasis status UKom.
+
+**Feature Flag Integrasi LMS Moodle**<br />Pengaturan switch on/off fleksibel untuk pengaktifan menu integrasi Learning Management System (LMS).
 
 ### <Icon icon="settings-2" /> Penyempurnaan Fitur
 
-**Pengelolaan Data Dosen yang Lebih Akurat**\
-Dilakukan penyempurnaan pada proses pengelolaan data NIP dan NUPTK sehingga informasi dosen dapat tersimpan dengan lebih konsisten.
+**Penyesuaian Karakter Gelar Singkat Kelulusan**<br />Memperluas batas input field gelar singkat kelulusan agar dapat menampung gelar yang lebih panjang dari 11 karakter.
 
-**Informasi Kapasitas Penyimpanan**\
-Sistem kini menampilkan informasi total kapasitas penyimpanan yang digunakan sehingga memudahkan proses monitoring penggunaan storage kampus
+**Penyempurnaan Label Wording Sinkronisasi LMS**<br />Mengubah teks label keterangan status dari 'Sink. terakhir' menjadi 'Sinkr. terakhir' agar lebih rapi.
+
+**Batas Input Field Penilaian Bahasa Internasional SKPI**<br />Membatasi pengisian angka nilai bahasa internasional pada formulir SKPI hingga maksimal 3 karakter.
 
 ### <Icon icon="settings" /> Perbaikan Sistem
 
-Dilakukan perbaikan pada proses pengajuan MBKM sehingga alur pengajuan dapat berjalan lebih baik pada kondisi tertentu.
+**Sinkronisasi Batas Minimum Nilai Moodle Otomatis ke 0**<br />Default nilai minimum diatur secara otomatis ke angka 0 saat proses sinkronisasi mata kuliah dengan Moodle.
+
+**Pembuatan Akun Massal Mahasiswa bernama Tanda Petik / Apostrof**<br />Proses buat akun massal untuk nama mahasiswa yang mengandung tanda petik berhasil membentuk username & password tanpa error.
+
+**Penyimpanan Data Input Nilai per Mahasiswa**<br />Memperbaiki fitur simpan pada submenu Input Nilai per Mahasiswa sehingga nilai yang diubah langsung tersimpan presisi.
+
+**Sinkronisasi Email Dosen untuk Fitur Lupa Kata Sandi**<br />Perubahan email dosen dari Back Office kini terhubung langsung ke Portal v4 untuk kelancaran reset password.
+
+**Optimasi Menu Pengumuman, Tanggal, & Stream File**<br />Pemuatan menu pengumuman lebih cepat via AJAX, perbaikan format tanggal, serta pembaruan lib stream file lampiran.
+
+**Data Mahasiswa DO / Keluar Hasil Sinkronisasi eSPMI**<br />Data mahasiswa bersatus DO/Keluar beserta tanggal perbaikannya otomatis tampil lengkap setelah disinkronkan dengan eSPMI.
+
+### <Icon icon="history" /> Riwayat Changelog
+
+<AccordionGroup>
+  <Accordion title="1-31 Mei 2027">
+    ### <Icon icon="newspaper" /> Fitur Baru
+
+    **Pengajuan Penambahan Kuota Penyimpanan**<br />Administrator kampus kini dapat lebih mudah menghubungi tim Customer Experience terkait kebutuhan penambahan kapasitas penyimpanan melalui tombol bantuan yang tersedia pada sistem.
+
+    ### <Icon icon="settings-2" /> Penyempurnaan Fitur
+
+    **Pengelolaan Data Dosen yang Lebih Akurat**<br />Dilakukan penyempurnaan pada proses pengelolaan data NIP dan NUPTK sehingga informasi dosen dapat tersimpan dengan lebih konsisten.
+
+    **Informasi Kapasitas Penyimpanan**<br />Sistem kini menampilkan informasi total kapasitas penyimpanan yang digunakan sehingga memudahkan proses monitoring penggunaan storage kampus
+
+    ### <Icon icon="settings" /> Perbaikan Sistem
+
+    Dilakukan perbaikan pada proses pengajuan MBKM sehingga alur pengajuan dapat berjalan lebih baik pada kondisi tertentu.
+  </Accordion>
+
+  <Accordion>
+  </Accordion>
+</AccordionGroup>
