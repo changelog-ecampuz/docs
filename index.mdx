@@ -7,32 +7,30 @@ icon: "warehouse"
 ---
 
 <Note>
-  Periode Pembaruan tanggal 1 – 31 Mei 2026.
+  Periode Pembaruan tanggal 1 – 31 Juli 2026.
 </Note>
 
 ### 📢 Fitur Baru & Utama
 
-- **eRegistrasi:** Penambahan input manual nomor rekening, nama bank, dan kontak panitia bagi yang tidak terintegrasi sistem ePembayaran.
-- **ePortal Akademik & mCampus (OBE):** Implementasi **Evaluasi Formatif (OBE)**. Mahasiswa dapat melihat dan mengumpulkan tugas, sementara dosen dapat menilai serta memantau semua tugas dalam satu halaman.
-- **eAlumni:** Integrasi dengan **Adsqoo** untuk optimalisasi promosi dan _engagement_ alumni.
-- **Menu Changelog:** Kini hadir di profil pengguna modul **eRegistrasi** dan **ePembayaran** untuk melihat riwayat pembaruan aplikasi.
+- **Login Google SSO:** Dukungan Single Sign-On (SSO) menggunakan akun Google pada modul **eAkademik**, **ePembayaran**, dan **eRegistrasi**, meliputi konfigurasi enable/disable SSO, field email Google pada data user, login menggunakan Google, logout semua aplikasi, dan handling error.
+- **ePortal Akademik & mCampus:** Pengembangan menu **CPL Mahasiswa Kelas Saya** dilengkapi daftar kelas dan mahasiswa, fitur cari & filter, ekspor data, tabel detail, hingga Spider Web Chart. Penambahan kolom Prodi pada pengelolaan nilai, presensi, dan mata kuliah diampu, fitur **Pengajuan Yudisium**, **Visi & Misi Program Studi**, **Consent Form**, serta dukungan lampiran SKPI berformat PDF.
+- **eAkademik:** Penambahan sub menu **Dosen Penguji MBKM** beserta filter mahasiswa pada aktivitas mahasiswa MBKM, fitur **Setting Upload Dokumen**, modifikasi **Sesi Yudisium** dan validasi yudisium pada menu Kelulusan, fitur **Visi Misi Program Studi**, serta penyetaraan mata kuliah _one to many_ pada proses rekap nilai dan build transkrip.
+- **eSPMI:** Penambahan submenu **Visualisasi Akreditasi** pada menu Evaluasi (AMI), field **"Syarat Perlu"** pada instrumen sub standar mutu level 4, serta persentase kesiapan akreditasi pada dashboard admin.
+- **eAdmisi:** Penambahan **Consent Form** pada proses pendaftaran.
+- **Monitoring Log SigNoz:** Pembuatan **dashboard monitoring log aktivitas** di SigNoz untuk modul **eAkademik**, **ePembayaran**, **eAdmisi**, dan **eSPMI**.
 
 ---
 
 ### 🔧 Penyempurnaan & Optimalisasi Fitur
 
-- **eAkademik Back Office:**
-  - Pengelolaan data NIP/NUPTK dosen kini lebih konsisten.
-  - Penambahan indikator kapasitas penyimpanan (_storage monitoring_) dan tombol bantuan ke tim _Customer Experience_ jika butuh penambahan kuota.
-- **ePortal Akademik:**
-  - Peningkatan kenyamanan _text editor_ pada fitur Materi, Tugas, Ujian, Diskusi Online, dan Pengumuman.
-  - Optimalisasi performa sistem untuk mengurangi _lagging_ atau halaman tidak merespons.
+- **eAkademik:** Pengecualian validasi riwayat KRS untuk mahasiswa PPG serta penyesuaian label sub menu Visi Misi Perguruan Tinggi.
+- **ePortal Akademik & mCampus:** Penyesuaian highlight keterangan pada Capaian Pembelajaran di portal mahasiswa.
+- **eSPMI:** Perubahan panduan pengguna untuk fakultas, modifikasi filter auditee berdasarkan lembaga akreditasi dan periode tahun di dashboard admin, serta penambahan label jumlah daftar tilik pertanyaan pada standar mutu level 3 (visitasi).
 
 ---
 
 ### 🛠️ Perbaikan Sistem (Bug Fixes)
 
-- **ePembayaran:** Perbaikan informasi token pendaftaran, cetak kuitansi, akses beranda, serta optimalisasi laporan pembayaran dan piutang mahasiswa.
-- **eAkademik Back Office:** Perbaikan alur pengajuan MBKM pada kondisi tertentu agar lebih lancar.
-- **ePortal Akademik:** Perbaikan proses penilaian tugas/ujian kelas dan peningkatan stabilitas halaman.
-- **mCampus Services:** Perbaikan fitur lupa kata sandi, cetak kartu ujian, dan tampilan tanda tangan pada dokumen KRS.
+- **ePortal Akademik:** Perbaikan field nilai saat set null dan inputan nilai OBE, gagal simpan bimbingan akademik kolektif, gagal simpan nilai dengan inputan 0, serta simpan sementara nilai.
+- **mCampus Services:** Perbaikan filter semester yang tampil ganda di Capaian Pembelajaran, gagal simpan nilai dengan inputan 0, gagal menampilkan daftar pengajuan cuti mahasiswa tanpa referensi semester, serta simpan sementara nilai.
+- **eAkademik:** Perbaikan field tanggal yudisium mahasiswa.
