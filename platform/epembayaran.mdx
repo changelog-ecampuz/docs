@@ -1,26 +1,37 @@
 ---
 title: "ePembayaran"
-description: "Pembaruan sistem v3.01.01 periode 1 – 31 Juni 2026"
+description: "Pembaruan sistem v3.02.00 periode 1 – 31 Juli 2026"
 ---
 
-### <Icon icon="settings" /> Perbaikan dan Revisi Sistem
+### <Icon icon="newspaper" /> Fitur Baru
 
-**Akses Super Cepat Submenu Tagihan Belum Diatur (Bebas GTO)**<br />Peningkatan kecepatan pemuatan data pada menu Tagihan Mahasiswa Belum Diatur, terbebas dari kendala Gateway Timeout (GTO).
-
-**Pemuatan Data Transaksi Ribuan Mahasiswa Tanpa Warning**<br />Akses riwayat data pembayaran mahasiswa jumlah besar kini sangat cepat tanpa muncul pesan peringatan pada tabel data.
-
-**Kecepatan Pencarian Submenu Data Token Pendaftaran**<br />Proses pemuatan dan pencarian data pada menu Token Pendaftaran pendaftar kini berjalan jauh lebih responsif.
-
-**Akurasi Data Payment Finnet, Edit Token, & Cetak Kuitansi**<br />Sinkronisasi otomatis transaksi pendaftaran via Finnet. Data pada form edit token, cetak kuitansi, dan riwayat ekspor dijamin 100% akurat.
-
-**Kecepatan Konfigurasi Pengaturan Tarif Biaya Kuliah**<br />Memudahkan tim keuangan kampus dalam mengkonfigurasi tarif biaya kuliah per angkatan dengan respon halaman yang cepat.
-
-**Perbaikan Pemuatan Daftar Mahasiswa Tagihan Belum Diatur**<br />Memperbaiki kendala gagal pemuatan daftar mahasiswa yang belum diatur tagihannya.
+1. Pembuatan Dashboard Monitoring log ePembayaran di SigNoz
+2. Menambahkan dukungan Single Sign-On (SSO) menggunakan akun Google dengan menyediakan konfigurasi enable/disable SSO serta penambahan field email Google pada data user
+3. Menambahkan fitur Login Menggunakan Google pada halaman login untuk mendukung autentikasi menggunakan akun Google yang telah terdaftar pada sistem akademik
+4. Menambahkan field email pada halaman Ubah Profil untuk mendukung proses login menggunakan Google SSO
+5. Menambahkan fitur logout all aplication saat menggunakan login menggunakan google
+6. Menambahkan handling error ketika login menggunakan google
 
 ### <Icon icon="history" /> Riwayat Changelog
 
 <AccordionGroup>
-  <Accordion title="1-31 Mei 2027" icon="calendar-days">
+  <Accordion title="1-30 Juni 2026" icon="calendar-days">
+    ### <Icon icon="settings" /> Perbaikan dan Revisi Sistem
+
+    **Akses Super Cepat Submenu Tagihan Belum Diatur (Bebas GTO)**<br />Peningkatan kecepatan pemuatan data pada menu Tagihan Mahasiswa Belum Diatur, terbebas dari kendala Gateway Timeout (GTO).
+
+    **Pemuatan Data Transaksi Ribuan Mahasiswa Tanpa Warning**<br />Akses riwayat data pembayaran mahasiswa jumlah besar kini sangat cepat tanpa muncul pesan peringatan pada tabel data.
+
+    **Kecepatan Pencarian Submenu Data Token Pendaftaran**<br />Proses pemuatan dan pencarian data pada menu Token Pendaftaran pendaftar kini berjalan jauh lebih responsif.
+
+    **Akurasi Data Payment Finnet, Edit Token, & Cetak Kuitansi**<br />Sinkronisasi otomatis transaksi pendaftaran via Finnet. Data pada form edit token, cetak kuitansi, dan riwayat ekspor dijamin 100% akurat.
+
+    **Kecepatan Konfigurasi Pengaturan Tarif Biaya Kuliah**<br />Memudahkan tim keuangan kampus dalam mengkonfigurasi tarif biaya kuliah per angkatan dengan respon halaman yang cepat.
+
+    **Perbaikan Pemuatan Daftar Mahasiswa Tagihan Belum Diatur**<br />Memperbaiki kendala gagal pemuatan daftar mahasiswa yang belum diatur tagihannya.
+  </Accordion>
+
+  <Accordion title="1-31 Mei 2026" icon="calendar-days">
     ### <Icon icon="newspaper" /> Fitur Baru
 
     **Menu Changelog**<br />Pengguna kini dapat melihat informasi pembaruan sistem secara langsung melalui menu Changelog pada aplikasi.
