@@ -6,10 +6,25 @@ description: "Pembaruan sistem v3.18.00 periode 1 – 31 Juli 2026  "
 
 ### <Icon icon="newspaper" /> Fitur Baru
 
-1. Penambahan menu Dosen Penguji MBKM.
-2. Penyempurnaan Aktivitas Mahasiswa MBKM.
-3. Implementasi Google Single Sign-On (SSO).
-4. Penambahan Dashboard Monitoring SigNoz.
+1. Penambahan Sub Menu Dosen Penguji MBKM.
+2. Filter Mahasiswa dan Tab Dosen Penguji Pada Sub Menu Aktivitas Mahasiswa MBKM
+3. Implementasi Google Single Sign-On (SSO).<br />- Menambahkan dukungan Single Sign-On (SSO) menggunakan akun Google dengan menyediakan konfigurasi enable/disable SSO serta penambahan field email Google pada data user.<br />- Menambahkan field email pada halaman Change Password untuk mendukung proses login menggunakan Google SSO.<br />- Menambahkan fitur Login Menggunakan Google pada halaman login untuk mendukung autentikasi menggunakan akun Google yang telah terdaftar pada sistem akademik.<br />- Menambahkan fitur logout all aplication saat menggunakan login menggunakan google<br />- Menambahkan handling error ketika login menggunakan google<br />- Menambahkan multiple access ketika login menggunakan google
+4. Pembuatan Dashboard Monitoring Log Aktifitas SigNoz
+5. Pembuatan fitur Setting Upload Dokumen
+6. Modifikasi fitur Sesi Yudisium
+7. Validasi Yudisium pada menu Kelulusan
+8. Pembuatan Fitur Visi Misi Program Studi
+9. Penyetaraan Mata Kuliah One to many pada Proses Rekap Nilai
+10. Penyetaraan Mata Kuliah One to many pada Proses Build Transkrip satuan<br />
+
+### <Icon icon="settings-2" /> Penyempurnaan Fitur
+
+1. Pengecualian Validasi Riwayat KRS untuk Mahasiswa PPG PGP/PLPG dan PPG Non PGP/PLPG
+2. Penyesuaian Label Sub Menu Visi Misi Perguruan Tinggi
+
+### <Icon icon="settings" /> Perbaikan Sistem
+
+1.  Perbaikan Field Tanggal Yudisium Mahasiswa
 
 ### <Icon icon="history" /> Riwayat Changelog
 
@@ -54,18 +69,6 @@ description: "Pembaruan sistem v3.18.00 periode 1 – 31 Juli 2026  "
     **Batas Input Field Penilaian Bahasa Internasional SKPI**<br />Membatasi pengisian angka nilai bahasa internasional pada formulir SKPI hingga maksimal 3 karakter.
 
     ### <Icon icon="settings" /> Perbaikan Sistem
-
-    **Sinkronisasi Batas Minimum Nilai Moodle Otomatis ke 0**<br />Default nilai minimum diatur secara otomatis ke angka 0 saat proses sinkronisasi mata kuliah dengan Moodle.
-
-    **Pembuatan Akun Massal Mahasiswa bernama Tanda Petik / Apostrof**<br />Proses buat akun massal untuk nama mahasiswa yang mengandung tanda petik berhasil membentuk username & password tanpa error.
-
-    **Penyimpanan Data Input Nilai per Mahasiswa**<br />Memperbaiki fitur simpan pada submenu Input Nilai per Mahasiswa sehingga nilai yang diubah langsung tersimpan presisi.
-
-    **Sinkronisasi Email Dosen untuk Fitur Lupa Kata Sandi**<br />Perubahan email dosen dari Back Office kini terhubung langsung ke Portal v4 untuk kelancaran reset password.
-
-    **Optimasi Menu Pengumuman, Tanggal, & Stream File**<br />Pemuatan menu pengumuman lebih cepat via AJAX, perbaikan format tanggal, serta pembaruan lib stream file lampiran.
-
-    **Data Mahasiswa DO / Keluar Hasil Sinkronisasi eSPMI**<br />Data mahasiswa bersatus DO/Keluar beserta tanggal perbaikannya otomatis tampil lengkap setelah disinkronkan dengan eSPMI.
   </Accordion>
 
   <Accordion title="1-31 Mei 2026" icon="calendar-days">
